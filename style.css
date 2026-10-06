@@ -1,0 +1,82 @@
+:root {
+--azul: #2563EB;
+--azul-escuro: #1E3A8A;
+--branco: #FFFFFF;
+--cinza: #F1F5F9;
+--verde: #10B981;
+}
+*{
+box-sizing: border-box;
+}
+body {
+margin: 0;
+font-family: 'Roboto', sans-serif;
+color: #1E293B;
+}
+header {
+background-color: var(--azul-escuro);
+color: white;
+padding: 25px 8%;
+text-align: center;
+}
+header h1 {
+font-family: 'Poppins', sans-serif;
+}
+.hero {
+background-color: var(--cinza);
+min-height: 500px;
+padding: 100px 8%;
+text-align: center;
+}
+
+.hero h2 {
+font-family: 'Poppins', sans-serif;
+font-size: 48px;
+margin-bottom: 20px;
+}
+.hero p {
+font-size: 20px;
+max-width: 600px;
+text-align: center;
+margin: 0 auto;
+}
+
+.botao {
+display: inline-block;
+margin-top: 25px;
+padding: 15px 30px;
+background-color: var(--verde);
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: 0.3s;
+}
+.botao:hover {
+background-color: var(--azul);
+transform: scale(1.05);
+}
+.sobre {
+padding: 80px 8%;
+text-align: center;
+}
+
+.sobre h2 {
+font-family: 'Poppins', sans-serif;
+color: var(--azul-escuro);
+}
+.beneficios {
+background-color: var(--azul);
+color: white;
+padding: 70px 8%;
+text-align: center;
+}
+.beneficios h2 {
+font-family: 'Poppins', sans-serif;
+}
+footer {
+background-color: var(--azul-escuro);
+color: white;
+padding: 30px 8%;
+text-align: center;
+}
